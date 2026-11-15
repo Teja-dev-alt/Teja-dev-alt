@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300">
+  <style>
+    .float { animation: float 3s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+
+    .blink { animation: blink 4s infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+
+    .type { animation: type 0.6s ease-in-out infinite alternate; }
+    @keyframes type { from { transform: translateY(0); } to { transform: translateY(-3px); } }
+
+    .line { animation: pulseLine 2s infinite; }
+    @keyframes pulseLine { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+
+    .twinkle { animation: twinkle 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes twinkle { 0%,100% { opacity: .2; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.1); } }
+  </style>
+
+  <!-- Background -->
+  <rect x="4" y="4" width="632" height="292" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Code window -->
+  <rect x="350" y="50" width="250" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <circle cx="368" cy="68" r="5" fill="#ff5f56"/>
+  <circle cx="384" cy="68" r="5" fill="#ffbd2e"/>
+  <circle cx="400" cy="68" r="5" fill="#27c93f"/>
+  <rect x="368" y="90" width="120" height="8" rx="4" fill="#ff7b72" class="line"/>
+  <rect x="382" y="106" width="150" height="8" rx="4" fill="#a5d6ff" class="line" style="animation-delay:.3s"/>
+  <rect x="382" y="122" width="90" height="8" rx="4" fill="#7ee787" class="line" style="animation-delay:.6s"/>
+  <rect x="368" y="138" width="200" height="8" rx="4" fill="#d2a8ff" class="line" style="animation-delay:.9s"/>
+  <rect x="382" y="154" width="130" height="8" rx="4" fill="#ffa657" class="line" style="animation-delay:1.2s"/>
+  <rect x="368" y="170" width="60" height="8" rx="4" fill="#79c0ff" class="line" style="animation-delay:1.5s"/>
+  <rect x="368" y="186" width="90" height="8" rx="4" fill="#7ee787" class="line" style="animation-delay:1.8s"/>
+
+  <!-- Sparkles -->
+  <path class="twinkle" d="M320 36 L324 46 L334 50 L324 54 L320 64 L316 54 L306 50 L316 46 Z" fill="#ffd33d"/>
+  <path class="twinkle" style="animation-delay:.7s" d="M600 30 L603 38 L611 41 L603 44 L600 52 L597 44 L589 41 L597 38 Z" fill="#58a6ff"/>
+  <path class="twinkle" style="animation-delay:1.4s" d="M28 40 L31 47 L38 50 L31 53 L28 60 L25 53 L18 50 L25 47 Z" fill="#ff9eb5"/>
+
+  <!-- Character -->
+  <g class="float">
+    <!-- Hair (back) -->
+    <path d="M130 124 Q128 55 190 55 Q252 55 250 124 L250 150 L130 150 Z" fill="#2b2d42"/>
+    <!-- Face -->
+    <circle cx="190" cy="125" r="48" fill="#ffe0c2"/>
+    <!-- Bangs -->
+    <path d="M140 118 Q150 62 190 70 Q175 92 165 110 Q180 88 200 84 Q228 82 242 118 Q236 96 216 88 Q200 100 186 108 Q170 110 140 118 Z" fill="#2b2d42"/>
+    <!-- Eyes -->
+    <ellipse class="blink" cx="172" cy="130" rx="6" ry="8" fill="#1b1f2a"/>
+    <ellipse class="blink" cx="208" cy="130" rx="6" ry="8" fill="#1b1f2a"/>
+    <circle cx="174" cy="127" r="2" fill="#ffffff"/>
+    <circle cx="210" cy="127" r="2" fill="#ffffff"/>
+    <!-- Cheeks -->
+    <ellipse cx="160" cy="146" rx="8" ry="5" fill="#ff9eb5" opacity=".6"/>
+    <ellipse cx="220" cy="146" rx="8" ry="5" fill="#ff9eb5" opacity=".6"/>
+    <!-- Mouth -->
+    <path d="M184 150 Q190 155 196 150" stroke="#8b4a4a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Hoodie -->
+    <path d="M150 180 Q190 165 230 180 L242 240 L138 240 Z" fill="#58a6ff"/>
+    <line x1="184" y1="172" x2="182" y2="194" stroke="#e6edf3" stroke-width="2"/>
+    <line x1="196" y1="172" x2="198" y2="194" stroke="#e6edf3" stroke-width="2"/>
+    <!-- Arms typing -->
+    <rect class="type" x="120" y="206" width="24" height="36" rx="12" fill="#58a6ff"/>
+    <rect class="type" x="236" y="206" width="24" height="36" rx="12" fill="#58a6ff" style="animation-delay:.3s"/>
+  </g>
+
+  <!-- Laptop base -->
+  <rect x="96" y="238" width="200" height="12" rx="4" fill="#8b949e"/>
+  <rect x="120" y="232" width="152" height="6" rx="3" fill="#6e7681"/>
+
+  <!-- Caption -->
+  <text x="40" y="272" fill="#58a6ff" font-family="monospace" font-size="16">&lt;/&gt; coding mode: on</text>
+</svg>
