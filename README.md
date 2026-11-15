@@ -1,11 +1,16 @@
 <!-- Simpan sebagai README.md di repo Teja-dev-alt/Teja-dev-alt.
-     Upload folder assets/ (berisi teja-coding.svg) ke repo yang sama, di branch main. -->
+     Upload folder assets/ (berisi teja-coding.svg dan project-animation.webp) ke repo yang sama, di branch main. -->
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Hi%2C%20I'm%20Teja&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Trying%20To%20Be%20Better&descSize=20&descAlignY=60" alt="header" />
 
 <img src="https://raw.githubusercontent.com/Teja-dev-alt/Teja-dev-alt/main/assets/teja-coding.svg" alt="Teja coding" width="640" />
+
+<br/>
+
+<!-- VIDEO PROJECT TEJA -->
+<img src="https://raw.githubusercontent.com/Teja-dev-alt/Teja-dev-alt/main/assets/project-animation.webp" alt="Teja Project Animation" width="640" />
 
 <br/>
 
