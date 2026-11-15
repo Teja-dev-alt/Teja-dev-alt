@@ -30,7 +30,7 @@
 
 Halo, saya **Teja**. Saya sedang belajar membangun aplikasi web dan memakai GitHub ini untuk mencatat perjalanan belajar, dari eksperimen kecil sampai proyek yang lebih serius.
 
-- 🎓 **Pendidikan:** `[isi kampus dan jurusan]`
+- 🎓 **Pendidikan:** `uin syech m. djamil djambek bukittiggi ~ Pendidikan Teknik Informatika & Komputer`
 - 🔭 **Sedang dikerjakan:** KursusKu, sistem manajemen kursus berbasis Laravel
 - 🌱 **Sedang dipelajari:** Laravel, desain database (ERD), dan JavaScript
 - 💬 **Bisa ditanya soal:** PHP, Laravel, dan perancangan database
