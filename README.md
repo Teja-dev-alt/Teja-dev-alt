@@ -94,7 +94,7 @@ Satu peserta tidak bisa mendaftar dua kali pada kursus yang sama, dijaga dengan 
 - [ ] Laravel lanjutan (autentikasi, policy, testing)
 - [ ] Deploy aplikasi ke hosting
 - [ ] Belajar JavaScript untuk interaksi frontend
-
+ 
 ---
 
 ## 🤝 Mari Terhubung
